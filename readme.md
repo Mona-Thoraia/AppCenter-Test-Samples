@@ -3,6 +3,16 @@ These samples are preconstructed to demonstrate how each test framework included
 
 Primary documentation for AppCenter/Test is available here: https://docs.microsoft.com/en-us/appcenter/test-cloud/
 
+# Building the Espresso project
+
+1. Fork the repository and clone the project to your local machine
+2. Open Android Studio and build the Espresso android project
+3. Open terminal and navigate to your project directory
+4. Run each of the following commands:
+```
+   gradlew assembleDebug
+   gradlew assembleDebugAndroidTest
+```
 
 # Upload commands
 No matter which test framework you are using, to run apps in AppCenter/Test or Xamarin Test Cloud, you **must** generate a prototype upload commandline in one of the systems using the wizard. This command line requires modifications in order to be executed, which the test framework-specific upload scripts demonstrate for basic usage. 

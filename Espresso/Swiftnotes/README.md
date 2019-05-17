@@ -7,7 +7,7 @@ Steps on how to build Swiftnotes:
 4. Go to *File > Project Structure > SDK Location* and make sure Android SDK and JDK paths are set.
 5. Select *Build > Rebuild Project*
 
-# Building Test APK files
+## Building Test APK files
 
 1. Open terminal and navigate to your project directory
 2. Run each of the following commands:

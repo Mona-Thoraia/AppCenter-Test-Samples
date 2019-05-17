@@ -2,16 +2,6 @@
 These samples are preconstructed to demonstrate how each test framework included can be used along with a demo app in AppCenter/Test.
 
 Primary documentation for AppCenter/Test is available here: https://docs.microsoft.com/en-us/appcenter/test-cloud/
-# Build the project
-
-1. Fork the repository and clone the project to your local machine
-2. Open Android Studio and build the desired android project
-3. Open terminal and navigate to your project directory
-4. Run each of the following commands:
-```
-   gradlew assembleDebug
-   gradlew assembleDebugAndroidTest
-```
 
 
 # Upload commands

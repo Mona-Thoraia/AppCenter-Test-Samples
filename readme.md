@@ -2,6 +2,17 @@
 These samples are preconstructed to demonstrate how each test framework included can be used along with a demo app in AppCenter/Test.
 
 Primary documentation for AppCenter/Test is available here: https://docs.microsoft.com/en-us/appcenter/test-cloud/
+# Build the project
+
+1. Fork the repository and clone the project to your local machine
+2. Open Android Studio and build the desired android project
+3. Open terminal and navigate to your project directory
+4. Run each of the following commands:
+```
+   gradlew assembleDebug
+   gradlew assembleDebugAndroidTest
+```
+
 
 # Upload commands
 No matter which test framework you are using, to run apps in AppCenter/Test or Xamarin Test Cloud, you **must** generate a prototype upload commandline in one of the systems using the wizard. This command line requires modifications in order to be executed, which the test framework-specific upload scripts demonstrate for basic usage. 
@@ -18,6 +29,9 @@ No matter which test framework you are using, to run apps in AppCenter/Test or X
 
 #### Example (Your exact command will differ)
 > appcenter test run appium --app "kegr/ReadmeDemo" --devices "kegr/top-4" --app-path pathToFile.apk  --test-series "master" --locale "en_US" --build-dir target/upload
+
+- For --app-path value, try : "app/build/outputs/apk/debug/app-debug.apk"
+- For build-dir value, try : "app/build/outputs/apk/androidTest/debug"
 
 # Framework Samples in this Repo
 ## Appium
